@@ -62,6 +62,7 @@ docker restart nod32-mirror
 
 ### <i class="icon-upload"></i>Ссылки
  - [Скрипт обновлений tarampampam/nod32-update-mirror](https://github.com/tarampampam/nod32-update-mirror/)
+ - [Запись в блоге](https://blog.erchov.ru/2016/12/%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE-%D0%B4%D0%BB%D1%8F-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B9-eset-nod32-%D0%B4%D0%BB%D1%8F-%D0%B7%D0%B0%D0%BF%D1%83%D1%81%D0%BA%D0%B0/)
  - [Редактор readme.md](https://stackedit.io/)
 
 ### <i class="icon-refresh"></i>Лицензия MIT
