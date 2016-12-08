@@ -1,0 +1,3 @@
+46 * * * * /NOD32MIRROR/cron_task.sh >> /var/log/cron.log 2>&1
+@reboot    /NOD32MIRROR/cron_task.sh >> /var/log/cron.log  2>&1
+
