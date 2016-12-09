@@ -50,8 +50,8 @@ docker restart nod32-mirror
  - настройка заглавной страницы               - *\$SHARE_DIR\\index.html*, подробнее [nod32-update-mirror](https://github.com/tarampampam/nod32-update-mirror/blob/master/README.md).
  - настройка регулярности запуска скрипта     - *\$SHARE_DIR\\cron_task.sh*, подробнее [nod32-update-mirror](https://github.com/tarampampam/nod32-update-mirror/blob/master/README.md).
 По умолчанию скрипт запускается при старте контейнера и каждую 46 минуту часа
--  Для защиты доступа к обновлению паролем можно использовать      - файл *\$SHARE_DIR\\.htpasswd*, необходимо также внести изменения в настройки nginx (файл *\$SHARE_DIR\\nginx.server.conf*).
--  обновления хранятся в каталоге *\$SHARE_DIR\\nod32-update-mirror/*
+ -  Для защиты доступа к обновлению паролем можно использовать      - файл *\$SHARE_DIR\\.htpasswd*, необходимо также внести изменения в настройки nginx (файл *\$SHARE_DIR\\nginx.server.conf*).
+ -  обновления хранятся в каталоге *\$SHARE_DIR\\nod32-update-mirror/*
 
 Если файлов настройки не существуют - используются файлы "по-умолчанию".
 
