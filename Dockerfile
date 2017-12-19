@@ -15,7 +15,7 @@ RUN  DEBIAN_FRONTEND=noninteractive apt-get update -qqy && apt-get upgrade -qqy 
   # удаляем все локали кроме этих
   && locale-gen --purge ru_RU.UTF-8 en_US.UTF-8 \
 # timezone
-  && echo "Europe/Moscow" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata \
+  && echo "Europe/Kiev" > /etc/timezone && dpkg-reconfigure -f noninteractive tzdata \
 # debug
 #  && apt-get install -yqq --no-install-recommends --no-install-suggests \
 #                     nano telnet procps sudo \
