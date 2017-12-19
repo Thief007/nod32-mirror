@@ -26,7 +26,7 @@ RUN  DEBIAN_FRONTEND=noninteractive apt-get update -qqy && apt-get upgrade -qqy 
 # папка для файлов обновления
   && mkdir -p /NOD32MIRROR/nod32mirror \
   && cd /home \
-  && git clone https://github.com/tarampampam/nod32-update-mirror.git \
+  && git clone https://github.com/Thief007/nod32-update-mirror.git \
 # пользователь для запуска скрипта обновления
   && export FOLDER_NOD32_USER="/home/nod32-update-mirror" \
   && useradd -m -d $FOLDER_NOD32_USER -s /bin/bash nod32user \
