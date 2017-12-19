@@ -19,7 +19,7 @@ git clone https://github.com/Thief007/nod32-mirror.git
 ##Собираем
 ```shell
 cd nod32-mirror/
-docker build --rm=true --force-rm --tag=ershov/nod32-mirror .
+docker build --rm=true --force-rm --tag=thief007/nod32-mirror .
 ```
 Создаем папку для хранения настроек и обновлений вне контейнера
 ```shell
@@ -32,7 +32,7 @@ docker run --name nod32-mirror \
 -di --restart=always \
 -h nod32-mirror \
 -v $SHARE_DIR/:/NOD32MIRROR/ \
--p $ip_addr:80:1380 \-d ershov/nod32-mirror
+-p $ip_addr:80:1380 \-d thief/nod32-mirror
 ```
 ##Логи и ошибки
 Логи и ошибки можно посмотреть
