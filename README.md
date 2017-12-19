@@ -32,7 +32,7 @@ docker run --name nod32-mirror \
 -di --restart=always \
 -h nod32-mirror \
 -v $SHARE_DIR/:/NOD32MIRROR/ \
--p $ip_addr:80:1380 \-d thief/nod32-mirror
+-p $ip_addr:80:1380 \-d thief007/nod32-mirror
 ```
 ##Логи и ошибки
 Логи и ошибки можно посмотреть
