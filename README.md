@@ -14,7 +14,7 @@
 #Эксплуатация данного проекта.
 ##Клонируем проект
 ```shell
-git clone https://github.com/ErshovSergey/nod32-mirror.git
+git clone https://github.com/Thief007/nod32-mirror.git
 ```
 ##Собираем
 ```shell
